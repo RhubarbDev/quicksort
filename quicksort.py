@@ -24,7 +24,6 @@ def part_index(arr: list, low: int, high: int):
     arr[high], arr[pivot_i] = arr[pivot_i], arr[high]
     return high
     
-
 def quick_sort(arr: list, low: int, high: int):
     try:
         if (low < high):
